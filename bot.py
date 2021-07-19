@@ -1,8 +1,8 @@
 import datetime
 import os
 import shutil
-import rc_bots.global_var as gl
 
+import rc_util.global_var as global_var
 from rc_bots.BotCoinFlipBot import BotCoinFlipBot
 
 
@@ -24,9 +24,7 @@ def main():
 
 if __name__ == "__main__":
     # check the url TODO
-    gl._init()
-    gl.set_value('GAME_NUM', 1)
-    gl.set_value('START_TIME', datetime.datetime.now())
+    global_var.init()
     setup_screen_shots_dir()
     try:
         main()
@@ -35,8 +33,8 @@ if __name__ == "__main__":
 
     finally:
         print("\nStatistics:\n",
-              "Time running: {!s}\n".format(datetime.datetime.now() - gl.get_value('START_TIME')),
-              "Played Games:  {!s}\n".format(gl.get_value('GAME_NUM'))
+              "Time running: {!s}\n".format(datetime.datetime.now() - global_var.get_value('START_TIME')),
+              "Played Games:  {!s}\n".format(global_var.get_value('GAME_NUM'))
               )
         # remove all the images captured before
         shutil.rmtree('imgs')
