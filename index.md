@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# RollerCoin_Assistant_Tool
+## 基于深度学习的RollerCoin挖矿助手
 
-You can use the [editor on GitHub](https://github.com/AaronYang2333/RollerCoin_Assistant_Tool/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Using deep learning techniques to help you to mining the cryptos, such as BTC, ETH and DOGE.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### ScreenShots [功能预览]
+There are two main funcs in this tool.
+这个挖矿助手有两个功能。
 
-### Markdown
+1. Help you to crack the game [帮你玩游戏] <br>
+[![RollerCoin Game Cracker](https://res.cloudinary.com/marcomontalbano/image/upload/v1630143009/video_to_markdown/images/youtube--0LgMaCDIAsk-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=0LgMaCDIAsk "RollerCoin Game Cracker")
+  - only support 'Coin-Flip' Game for now.
+  (I know, rollercoin.com has lower down the benefit from this game,thats why I make the repo public. [update](https://rollercoin.com/blog/gaming-rebalance-update/))
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+2. Help you to pass the geetest. [自动通过GeeTest验证]<br>
+  - only support level 1 captcha test for now.
+  [there are three levels of geetest captcha test](https://github.com/AaronYang2333/RollerCoin_Assistant_Tool/issues/6)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### How to use [如何使用]
+0. open a web browser.
+1. go to this link [https://rollercoin.com](https://rollercoin.com), and create an account. [去https://rollercoin.com链接注册一个账号]
+2. keep the lang equals to 'English' (you can click the bottom button to change it). [使用英文选项(点击屏幕下方的按钮切换)]
+3. click the 'Game' button. [点击屏幕上方的‘Game’按钮]
+4. start the application, and enjoy it.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Tips [提示]
+1. only supprot 1920\*1080, 2560\*1440 and higher resolution screen. [支持分辨率在1920\*1080以上的屏幕]
+2. and if you use 1920\*1080 screen, strongly recommend you to fullscreen you web browser. [推荐全屏，如果你使用1920\*1080屏幕]
+							
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Video Link [完整视频链接]
 
-### Jekyll Themes
+[Bilibili](https://www.bilibili.com/video/BV1EU4y1H7Eo/) 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AaronYang2333/RollerCoin_Assistant_Tool/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Youtube](https://www.youtube.com/watch?v=0LgMaCDIAsk)
